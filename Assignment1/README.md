@@ -15,7 +15,8 @@ When attempting to investigate Anscombe's Quartet in Golang, it was necessary to
 Python's statsmodels.api had a built in model for Ordinary Least Squares ("OLS"). It was easy to just run the model in Python as well as print the results.   
 Leveraging matplotlib.pyplot also allowed for friendly data visualizations. R is even better with visualizations. This is an area for Golang to continue to improve upon.  
 
-![Anscombe Quartet] (~/images/fig_anscombe_Python.png)
+Here is a figure of the Quartet.
+    ![Anscombe Quartet] (~/images/fig_anscombe_Python.png)
 
 
 
