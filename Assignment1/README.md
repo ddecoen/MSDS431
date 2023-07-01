@@ -17,7 +17,7 @@ Leveraging matplotlib.pyplot also allowed for friendly data visualizations. R is
 
 Here is a figure of the Quartet.  
 
-    ![Anscombe Quartet](/Assignment1/images/fig_anscombe_Python.png)
+    ![anscombe](/imgages/fig_anscombe_Python.png)
 
 
 
