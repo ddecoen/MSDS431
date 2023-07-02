@@ -5,6 +5,11 @@
 ### Go statistical package
 ### https://github.com/montanaflynn/stats
 
+## What does this code do? 
+1. Uses Go to analyze the four separate Anscombe Quartet datasets
+2. Calculates the slope and intercept needed to peform Ordinary Least Squares Regression
+3. Prints out the Regression Results
+
 ## Can Go be used for statistics in a similar fashion to Python and R
 The answer is yes it can, but it may still be better to perform higher level analysis in Python or R. After completing the assignment, it made me realize that a data scientist/data engineer really needs to be multi-lingual. There are still some data analysis related projects, in particular Exploratory Data Analysis where Python and R are still much stronger than Go. That could be because I am stronger in Python and R than I am in Go, but regardless of the reason, it makes sense to be proficient in more than one lanuage. It is all about having the right tool in the toolbox for whatever problem could arise in the future.
 
