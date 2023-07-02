@@ -121,15 +121,18 @@ func main() {
 	for i, dataset := range d {
 		datasets[i] = createDataset(dataset)
 	}
-
+	startTime := time.Now()
 	for _, coords := range datasets {
 		produceSlopeIntercept(coords)
 	}
-
-	//See how long the code takes to run
-	startTime := time.Now()
 	endTime := time.Now()
 	timeElapsed := endTime.Sub(startTime)
 	fmt.Printf("Time running regressions: %v\n", timeElapsed)
+
+	//See how long the code takes to run
+	//startTime := time.Now()
+	//endTime := time.Now()
+	//timeElapsed := endTime.Sub(startTime)
+	//fmt.Printf("Time running regressions: %v\n", timeElapsed)
 
 }
