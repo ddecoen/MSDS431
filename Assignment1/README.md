@@ -23,6 +23,11 @@ While the Go code does not do any of the data visualization, it does calculate t
 
 ![goresult](images/Go_Code_Results.png)
 
+The Go code performs much more quickly (e.g., super fast) compared to Python. When running the providing Python code (using the time package) it takes exponentially longer than Go. See results from Python below:
+
+![pythonresult](images/python_code_results.png)
+
+
 
 ### The Python code made use of demonstration data from
 #### Anscombe, F. J. 1973, February. Graphs in statistical analysis. 
