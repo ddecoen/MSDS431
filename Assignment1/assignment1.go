@@ -1,3 +1,7 @@
+//Code inspired by https://github.com/weswest/msds431wk2/blob/main/main.go
+//The purpose of this code is to reproduce the results of Anscombe's Quartet in Go
+//Results were compared to Python and R results
+
 package main
 
 //Import the packages for the program
@@ -67,7 +71,7 @@ func calcSlopeIntercept(reg stats.Series) (float64, float64, error) {
 	}
 
 	if !sameX {
-		return 0, 0, fmt.Errorf("No same values found")
+		return 0, 0, fmt.Errorf("No same X values found")
 	}
 
 	// Calculate the slope and intercept
